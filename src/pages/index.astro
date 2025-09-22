@@ -1,0 +1,46 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Menu from '../components/Menu.astro';
+import "../assets/main.css";
+---
+
+<Layout>
+  <Menu></Menu>
+  <div class="terminal-container">
+    <div class="terminal-header">
+      <div class="terminal-title">TERMINAL PORTFOLIO v1.0 - 1987</div>
+    </div>
+      
+    <div class="terminal-main" id="wrapper">
+      <div class="terminal-output" id="output">
+        <div class="ascii-art delay-0-5s">
+          <pre>
+╔══════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════╗
+║                              <span id="welcome"></span>                              ║
+╚══════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════╝
+          </pre>
+        </div>
+        <div class="terminal-line-default delay-1s">
+          <span class="success">Sistema de inicio del terminal........ <b>[OK]</b></span>
+        </div>
+        <div class="terminal-line-default delay-2s">
+          <span class="success">Procesando datos del registro.........  <b>[OK]</b></span>
+        </div>
+        <div class="terminal-line-default delay-3s">
+          <span class="success">Iniciando sesión en el sistema........  <b>[OK]</b></span>
+        </div>
+
+        <br>
+        
+        <div class="terminal-line-default delay-4s">
+          <span class="info">Escribe <b>'help'</b> para ver comandos disponibles.</span>
+        </div>
+      </div>
+        
+      <div class="terminal-input-line delay-5s">
+        <span class="terminal-prompt">user@portfolio:~$</span>
+        <input type="text" class="terminal-input" id="commandInput" autocomplete="off" value="projects">
+      </div>
+    </div>
+  </div>
+</Layout>

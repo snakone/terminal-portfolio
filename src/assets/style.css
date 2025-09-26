@@ -31,6 +31,10 @@ a:visited {
   height: 6px;
 }
 
+.gap + b {
+  margin-top: 1rem;
+}
+
 * {
   margin: 0;
   padding: 0;

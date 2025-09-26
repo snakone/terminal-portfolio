@@ -1,6 +1,6 @@
 import { TerminalPortfolio } from "./src/const/classes";
 
-const app = new TerminalPortfolio();;
+const app = new TerminalPortfolio();
 const LOAD_TIME = 5500;
 const wrapper = document.getElementById("wrapper");
 

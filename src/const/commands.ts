@@ -110,7 +110,7 @@ export const PROJECTS_COMMANDS = [
   '<div class="gap"></div>',
   '<b>[3] Local Youtube Stalker (2025)</b>',
   '<span class="success">Tech: Angular, IA, Nodejs, Express</span>',
-  '<span class="success">Descripción: Aplicación web que permite usar LLM sin coste gracias a <a href="https://ollama.com/" target="blank">Ollama</a>. Analiza vídeos de Youtube o páginas web de maneral local. Todo sin coste y de manera ilimitada.</span>',
+  '<span class="success">Descripción: Aplicación web que permite usar LLM sin coste gracias a <a href="https://ollama.com/" target="blank">Ollama</a>. Analiza vídeos de Youtube o páginas web en local. Todo sin coste y de manera ilimitada.</span>',
   '<div class="gap"></div>',
   '<span class="success">- Github: <a href="https://github.com/snakone/local-youtube-stalker-LLM" target="blank">Code</a>',
   '<span class="success">- Link: <a href="https://localyoutubestalker.netlify.app/" target="blank">Local Youtube Stalker</a>',
